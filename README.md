@@ -4,7 +4,7 @@
 ## Description:
 Final project for CPSC 478: Computer Graphics: advanced 10-second animation rendered using C++ graphics
 
-## Langauges:
+## Languages/Frameworks:
 C++
 
 ## Features:
