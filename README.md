@@ -6,7 +6,7 @@ Certainly! Here's your information formatted nicely in Markdown for GitHub:
 A 10-second animation rendered using drawing in C++ (final project for CPSC 478: Computer Graphics).
 
 ## Link: 
-[Watch the animation on YouTube](https://youtu.be/WepprhhpGE4)
+### [Watch the animation on YouTube](https://youtu.be/WepprhhpGE4)
 
 ## Features:
 ### Glossy Reflection in the Sphere
