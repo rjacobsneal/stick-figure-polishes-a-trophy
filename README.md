@@ -1,12 +1,11 @@
-Certainly! Here's your information formatted nicely in Markdown for GitHub:
-
 # Stick Figure Polishes a Trophy
+[Like to YouTube video](https://youtu.be/WepprhhpGE4)
 
 ## Description:
-A 10-second animation rendered using drawing in C++ (final project for CPSC 478: Computer Graphics).
+Final project for CPSC 478: Computer Graphics: advanced 10-second animation rendered using C++ graphics
 
-## Link: 
-### [Watch the animation on YouTube](https://youtu.be/WepprhhpGE4)
+## Langauges:
+C++
 
 ## Features:
 ### Glossy Reflection in the Sphere
