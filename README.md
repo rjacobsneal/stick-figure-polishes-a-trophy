@@ -7,7 +7,7 @@ https://youtu.be/WepprhhpGE4
 
 ## Features:
 I implemented a glossy reflection in the sphere. 
-    + Each ray that hits the sphere generates 100 new, unqiue sample rays.
+    '+' Each ray that hits the sphere generates 100 new, unqiue sample rays.
     + Each sample ray is reflected with a direction that has been adjusted by a randomized direction.
     + The randomized directions all are within the hemisphere about the ray's perfect reflection.
     + The sphere also is shaded using standard shading models as explored in the last homework assignment. 
