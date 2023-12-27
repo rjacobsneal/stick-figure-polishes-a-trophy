@@ -1,4 +1,6 @@
-# cpsc478-final-project
+# Stick Figure Polishes a Trophy
+
+10-second animation rendered using drawing in c++ (final project for CPSC 478: Computer Graphics)
 
 LINK: https://youtu.be/WepprhhpGE4
 -----------
