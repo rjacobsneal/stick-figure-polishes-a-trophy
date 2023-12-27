@@ -41,7 +41,7 @@ const char *texturePath3 = "windowpane.ppm";
 const int MAX_DEPTH = 2;
 const float EPSILON = 1e-3;
 
-int frame = 245;
+int frame = 295;
 
 VEC3 eye(6, 2, -5);
 VEC3 eyeCopy = eye;
@@ -713,10 +713,18 @@ void renderImage(int &xRes, int &yRes, const string &filename)
   const int totalCells = xRes * yRes;
   float *ppmOut = new float[3 * totalCells];
 
-  int frameFactor = min(frame, 294);
-  eye.z() = eyeCopy.z() + 0.034 * frameFactor;
-  eye.x() = eyeCopy.x() - 0.02 * frameFactor;
-  eye.y() = eyeCopy.y() + 0.001 * frameFactor;
+  if (frame < 295)
+  {
+    eye.z() = eyeCopy.z() + 0.034 * frame;
+    eye.x() = eyeCopy.x() - 0.02 * frame;
+    eye.y() = eyeCopy.y() + 0.001 * frame;
+  }
+  else
+  {
+    eye.z() = eyeCopy.z() + 0.034 * 294;
+    eye.x() = eyeCopy.x() - 0.02 * 294;
+    eye.y() = eyeCopy.y() + 0.001 * frame;
+  }
 
   // Compute image plane
   const float halfY = (lookingAt - eye).norm() * tan(45.0f / 360.0f * M_PI);

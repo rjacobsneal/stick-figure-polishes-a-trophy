@@ -1,6 +1,6 @@
 LINK:
 -----------
-
+https://youtu.be/WepprhhpGE4
 
 FEATURES:
 -----------
@@ -17,5 +17,5 @@ I implemented textures in the floor, metal box, and windows on wall.
 HOW TO RUN:
 -----------
 Make the previz executable with a standard "make" call
-    "./previz" will begin to render all 300 frames
-    "./previz 1" will render a single representative frame (frame 52)
+    "./previz" will begin to render all 300 frames, can be made into .mov by running ./movieMaker in frames directory
+    "./previz 1" will render a single representative frame (frame 52) into the frames directory
