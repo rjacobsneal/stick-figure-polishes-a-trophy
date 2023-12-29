@@ -1,5 +1,5 @@
 # Stick Figure Polishes a Trophy
-[Like to YouTube video](https://youtu.be/WepprhhpGE4)
+[Link to YouTube video](https://youtu.be/WepprhhpGE4)
 
 ## Description:
 Final project for CPSC 478: Computer Graphics: advanced 10-second animation rendered using C++ graphics
